@@ -20,12 +20,7 @@ of our feeds to a Rails API.
 6. Run `$ rails s` and you should be able to see this application on localhost:3000.
 
 #### Exercise
-Your task is to create routes for a couple of our data feeds which respond with the correct information in a .txt format.
-Specifically, I would like you to create a couple routes and a syndications_controller to handle the request.  
-Then use the syndication.rb model to prepare the response.
-You can find our syndication records under the table syndications, where each record has a name, body and created_at.
-The name of the syndication record is how you identify which feed that record belongs to, and the body is what the route should respond with.
-There are multiple records in the database, so please be sure to respond to the routes with the most recent syndication record, based on created_at.
+Your task is to create routes for a couple of our data feeds which respond with the correct information in a .txt format.  Specifically, I would like you to create a couple routes and a syndications_controller to handle the request.  Then use the syndication.rb model to prepare the response.  You can find our syndication records under the table syndications, where each record has a name, body and created_at.  The name of the syndication record is how you identify which feed that record belongs to, and the body is what the route should respond with.  There are multiple records in the database, so please be sure to respond to the routes with the most recent syndication record, based on created_at.
 
 ###### Tour URLs
 * route: `localhost:3000/syndication/tour_urls`
