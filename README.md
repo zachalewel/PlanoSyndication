@@ -2,14 +2,14 @@
 
 #### Background
 At PlanOmatic we have various data feeds that our clients access via URL.  Since the feeds are very large .txt files,
-We have tasks that generate them every few hours and save them to our database under the table Syndication.
+we have tasks that generate them every few hours and save them to our database, under the table syndications.
 We are in the process of creating our second generation software and would like your help migrating a couple
 of our feeds to a Rails API.
 
 #### Install
 1. Clone this repo onto your local machine.
 
-2. `$ cd planomatic_syndication` in root folder.
+2. `$ cd planomatic_syndication` into root folder.
 
 3. Run `$ bundle` to install gems.
 
@@ -27,9 +27,9 @@ The name of the syndication record is how you identify which feed that record be
 There are multiple records in the database, so please be sure to respond to the routes with the most recent feed, based on created_at.
 
 ###### Tour URLs
-route: `localhost:3000/syndication/tour_urls`
-column name: tour_urls.txt
+* route: `localhost:3000/syndication/tour_urls`
+* column name: tour_urls.txt
 
 ###### Tour Slides Descriptions
-route: `localhost:3000/syndication/tour_slides_descriptions`
-column name: tour_slides_descriptions.txt
+* route: `localhost:3000/syndication/tour_slides_descriptions`
+* column name: tour_slides_descriptions.txt
