@@ -1,0 +1,8 @@
+<% @tour.each do |content| %>
+  <% content_body = content.body.split(/\n/) %>
+  <% content_body.each do |url| %>
+    <p>
+      <%= url %>
+    </p>
+  <% end %>
+<% end %>
